@@ -1,0 +1,42 @@
+{
+    "cep": [{
+        "cep":"88107-350",
+        "state":"SC",
+        "city":"São José",
+        "district":"Forquilhas",
+        "address":"Avenida Lisboa",
+        "status":200,
+        "ok":true,
+        "statusText":"ok"
+    },
+    {
+        "cep":"88107-745",
+        "state":"SC",
+        "city":"São José",
+        "district":"Forquilhas",
+        "address":"Rua Rui Carlin Ribeiro",
+        "status":200,
+        "ok":true,
+        "statusText":"ok"
+    },
+    {
+        "cep":"88130-505",
+        "state":"SC",
+        "city":"Palhoça",
+        "district":"Ponte do Imaruim",
+        "address":"Rua José Silveira de Souza",
+        "status":200,
+        "ok":true,
+        "statusText":"ok"
+    },
+    {
+        "cep":"88135-212",
+        "state":"SC",
+        "city":"Palhoça",
+        "district":"Aririú",
+        "address":"Rua dos Lagos",
+        "status":200,
+        "ok":true,
+        "statusText":"ok"
+    }]
+}

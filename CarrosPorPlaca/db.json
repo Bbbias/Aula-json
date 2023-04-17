@@ -1,0 +1,65 @@
+{
+    "carro": 
+    [
+        {
+            "placa": "GBZ8572",
+            "marca": "Chevrolet",
+            "modelo": "Corsa",
+            "ano": "2016"
+        },
+        {
+            "placa": "HIJ3502",
+            "marca": "Fiat",
+            "modelo": "Siena",
+            "ano": "2002"
+        },
+        {
+            "placa": "GJK8394",
+            "marca": "Ford",
+            "modelo": "Focus",
+            "ano": "2008"
+        },
+        {
+            "placa": "KFT3048",
+            "marca": "Volkswagen",
+            "modelo": "Gol",
+            "ano": "2020"
+        },
+        {
+            "placa": "RHK8394",
+            "marca": "Fiat",
+            "modelo": "Uno",
+            "ano": "2013"
+        },
+        {
+            "placa": "KHF9848",
+            "marca": "Renalt",
+            "modelo": "Clio",
+            "ano": "2014"
+        },
+        {
+            "placa": "FJJ0485",
+            "marca": "Toyota",
+            "modelo": "Corolla",
+            "ano": "2005"
+        },
+        {
+            "placa": "HYB9425",
+            "marca": "Renalt",
+            "modelo": "Sandero",
+            "ano": "2000"
+        },
+        {
+            "placa": "KLY3944",
+            "marca": "Hyundai",
+            "modelo": "HB20",
+            "ano": "2019"
+        },
+        {
+            "placa": "FDV9385",
+            "marca": "Renalt",
+            "modelo": "Logan",
+            "ano": "2022"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="placa" placeholder="Digite a placa">
+
+    <button onclick="buscaPlaca()">Buscar carro</button>
+
+</body>
+<script>
+
+    let placa
+
+    function defineCampos(){
+       
+       placa = document.getElementById("placa")
+       if(placa.value.length == 7){
+           return true
+       }
+       return false
+   }
+        
+    function buscaPlaca(){ 
+        if(defineCampos()){ 
+    
+        var url = "https://my-json-server.typicode.com/Bbbias/BuscaCarros-JSON/carro/?placa=" + placa.value
+
+        fetch(url)
+            .then(res => res.json())
+            .then(data => {
+            return alert(`Placa: ${data[0].placa} \nMarca: ${data[0].marca} \nModelo: ${data[0].modelo} \nAno: ${data[0].ano}`)
+    })
+    }else{
+        alert("Placa não encontrada, digite uma placa válida")
+    }
+}
+
+</script>
+</html>

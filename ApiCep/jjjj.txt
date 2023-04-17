@@ -1,0 +1,1 @@
+postgres://fuarktoa:i5l7w_L1T123B_-ptE2csOu0qzFbr9YB@kandula.db.elephantsql.com/fuarktoa
